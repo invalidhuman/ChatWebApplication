@@ -33,8 +33,14 @@ dependencies {
 	// webjars
 	implementation("org.webjars:webjars-locator-core")
 	implementation("org.webjars:stomp-websocket:2.3.3")
-	implementation("org.webjars:stomp-websocket:2.3.3")
-	implementation("org.webjars:bootstrap:3.3.7")
+	implementation("org.webjars.bower:bootstrap:4.3.1")
+	implementation("org.webjars.bower:vue:2.5.16")
+	implementation("org.webjars.bower:axios:0.17.1")
+	implementation("org.webjars:sockjs-client:1.1.2")
+	implementation("com.google.code.gson:gson:2.8.0")
+
+
+
 	implementation("org.webjars:jquery:3.1.1-1")
 
 	// Websocket
