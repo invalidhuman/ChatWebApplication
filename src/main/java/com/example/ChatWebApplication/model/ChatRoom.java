@@ -16,9 +16,9 @@ public class ChatRoom {
     private String name;
 
     public static ChatRoom create(String name) {
-        ChatRoom chatRoom = new ChatRoom();
-        chatRoom.roomId = UUID.randomUUID().toString();
-        chatRoom.name = name;
+        ChatRoom chatRoom = new ChatRoom()
+            .setRoomId(UUID.randomUUID().toString())
+            .setName(name);
         return chatRoom;
     }
 }
