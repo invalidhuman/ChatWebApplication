@@ -9,5 +9,7 @@ spring:
         enabled: false
     freemarker:
         cache: false
+        template-loader-path: classpath:/templates/ # 템플릿 파일 경로 설정
+        suffix: .ftl                               # 템플릿 파일 확장자 설정
     application:
         name: ChatWebApplication
